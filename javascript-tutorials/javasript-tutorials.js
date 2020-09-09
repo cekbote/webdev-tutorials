@@ -84,5 +84,49 @@ else
 
 /* Switch Case */
 
+switch(val)
+{
+    case 1:
+        ans = 1;
+        break;
+    case 2:
+        ans = 2;
+        break;
+}
+
+//_____________________________________________________________________________
+
+
+/* Javascript Objects */
+
+var Dog = {
+    "name": "pop",
+    "legs": 4,
+    "tails": 7,
+    "test": [sds]
+};
+
+var tails = Dog.tails;
+var tails_2 = Dog["tails"];
+
+delete Dog.tails;
+
+// It can be thought of a key-value pair or an object.
+
+var val = Dog.hasOwnProperty("tail"); //True if its a property
+
+var colour = {
+    "red": {"pink": 1}
+};
+
+//_____________________________________________________________________________
+
+/* For, While, Do-While */
+
+// Same as C++
+
+//_____________________________________________________________________________
+
+
 
 
